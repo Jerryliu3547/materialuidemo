@@ -7,7 +7,9 @@ const page = () => {
     {name:'Typography', href: "/typography"},
     {name:'Default Theme', href: "/defaulttheme"},
     {name: 'Button', href: '/button'},
-    {name: 'Button Group', href: '/buttongroup'},
+    {name: 'Toggle Button', href: '/togglebutton'},
+    {name: 'text field', href: '/textfield'},
+    
 
   ]  
   return (

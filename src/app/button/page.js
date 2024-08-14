@@ -1,5 +1,5 @@
 'use client'
-import { Typography, Button, Stack, IconButton } from '@mui/material'
+import { Typography, Button, Stack, IconButton, ButtonGroup } from '@mui/material'
 import SendIcon from '@mui/icons-material/Send';
 import CrisisAlertIcon from '@mui/icons-material/CrisisAlert';
 const page = () => {
@@ -49,6 +49,22 @@ const page = () => {
             <Button variant='contained' size='medium' startIcon={<SendIcon/>} disableElevation disableRipple>Send</Button>
             <Button variant='contained' size='medium' endIcon={<SendIcon/>} >Send</Button>
             <Button variant='contained' size='medium'  startIcon={<CrisisAlertIcon/>} onClick={() => alert('Alert')}>Alert</Button>
+        </Stack>
+
+        <Typography variant='h4' component='h1' gutterBottom>Button Group</Typography>
+        <Stack spacing={2} direction='row' display='flex'>
+            <ButtonGroup variant="contained">
+                <Button>Left</Button>
+                <Button>Center</Button>
+                <Button>Right</Button>
+            </ButtonGroup>
+        </Stack>
+        <Stack spacing={3} direction='row' display='flex'>
+            <ButtonGroup variant="text" size='large' color='secondary' aria-label='alignment button group'>
+                <Button>Left</Button>
+                <Button>Center</Button>
+                <Button>Right</Button>
+            </ButtonGroup>
         </Stack>
 
     </div>
