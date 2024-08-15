@@ -12,6 +12,14 @@ const page = () => {
     {name: 'select with TextField', href: '/select'},
     {name: 'Radio Button', href: '/radiobutton'},
     {name: 'Checkbox', href: '/checkbox'},
+    {name: 'Switch', href: '/switch'},
+    {name: 'Rating', href: '/rating'},
+    {name: 'AutoComplete', href: '/autocomplete'},
+    {name: 'Stack', href: '/stack'},
+    {name: 'Box', href: '/box'},
+    {name: 'Grid', href: '/grid'},
+
+
     
 
   ]  
