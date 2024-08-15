@@ -8,7 +8,10 @@ const page = () => {
     {name:'Default Theme', href: "/defaulttheme"},
     {name: 'Button', href: '/button'},
     {name: 'Toggle Button', href: '/togglebutton'},
-    {name: 'text field', href: '/textfield'},
+    {name: 'TextField', href: '/textfield'},
+    {name: 'select with TextField', href: '/select'},
+    {name: 'Radio Button', href: '/radiobutton'},
+    {name: 'Checkbox', href: '/checkbox'},
     
 
   ]  
