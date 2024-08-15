@@ -15,7 +15,6 @@ const page = () => {
     {name: 'Switch', href: '/switch'},
     {name: 'Rating', href: '/rating'},
     {name: 'AutoComplete', href: '/autocomplete'},
-    {name: 'Stack', href: '/stack'},
     {name: 'Box', href: '/box'},
     {name: 'Grid', href: '/grid'},
 
