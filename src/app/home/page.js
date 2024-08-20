@@ -24,8 +24,6 @@ const page = () => {
     {name: 'Snackbar', href: '/snackbar'},
 
 
-    
-
   ]  
   return (
     <div>
