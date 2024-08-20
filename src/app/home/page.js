@@ -17,6 +17,11 @@ const page = () => {
     {name: 'AutoComplete', href: '/autocomplete'},
     {name: 'Box', href: '/box'},
     {name: 'Grid', href: '/grid'},
+    {name: 'Drawer', href: '/drawer'},
+    {name: 'Accordion', href: '/accordion'},
+    {name: 'Tabs', href: '/tabs'},
+    {name: 'Stepper', href: '/stepper'},
+    {name: 'Snackbar', href: '/snackbar'},
 
 
     
