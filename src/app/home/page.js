@@ -17,7 +17,6 @@ const page = () => {
     {name: 'AutoComplete', href: '/autocomplete'},
     {name: 'Box', href: '/box'},
     {name: 'Grid', href: '/grid'},
-    {name: 'drawer', href: '/drawer'},
 
 
     
